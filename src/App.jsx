@@ -66,7 +66,7 @@ const App = () => {
   };
   return (
     <div className="my-element mb-5">
-      <h1 className="my-5 text-center">Formularios controlados, (DOM)</h1>
+      <h1 className="my-5 text-center">Organizador de Tareas</h1>
       <Formulario addTodo={addTodo} />
       <Todos
         todos={orderTodo(todos)}
